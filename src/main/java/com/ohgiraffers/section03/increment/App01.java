@@ -12,20 +12,20 @@ public class App01 {
         *       '--' : 1 감소의 의미
         *   */
 
-        int num = 20;
-        System.out.println("num = " + num);
+        int num = 20;//
+        System.out.println("num = " + num);//20
 
         num++;
-        System.out.println("num = " + num);
+        System.out.println("num = " + num);//21
 
         ++num;
-        System.out.println("num = " + num);
+        System.out.println("num = " + num);//22
 
         num--;
-        System.out.println("num = " + num);
+        System.out.println("num = " + num);//21
 
         --num;
-        System.out.println("num = " + num);
+        System.out.println("num = " + num);//20
 
         /* 목차. 2. 증감연산자를 다른 연산자와 함께 사용 */
         /* 필기.
@@ -33,29 +33,29 @@ public class App01 {
         *   증감연산자는 다른 연산자와 함께 사용할 때 의미가 달라진다!!!!!!!!
         *   다른 연산자와 함께 사용할 때 증감 연산자의 의미
         *   '++num' : 피연산자의 값을 먼저 1을 증가시킨 후 다른 연산을 진행함.
-        *   'num++' : 다른 연산을 먼저 진행하고 난 뒤 마지막에 피영ㄴ산자의 값을 1 증가시킨다.
+        *   'num++' : 다른 연산을 먼저 진행하고 난 뒤 마지막에 피연산자의 값을 1 증가시킨다.
         *  */
 
         int firstNum = 20;
 
-        int result1 = firstNum++ * 3;
+        int result1 = firstNum++ * 3;//
 
-        System.out.println("result1 = " + result1);
-        System.out.println("firstNum = " + firstNum);
+        System.out.println("result1 = " + result1);//60
+        System.out.println("firstNum = " + firstNum);//21
 
         int secondNum = 20;
 
         int result2 = ++secondNum * 3;
 
-        System.out.println("result2 = " + result2);
-        System.out.println("secondNum = " + secondNum);
+        System.out.println("result2 = " + result2);//63
+        System.out.println("secondNum = " + secondNum);//21
 
         int num1 = 10;
         int addNum = num1++;
 
-        System.out.println("addNum = " + addNum);
+        System.out.println("addNum = " + addNum);//11
 
-        System.out.println("num1 = " + num1);
+        System.out.println("num1 = " + num1);//10
 
     }
 
